@@ -1,11 +1,24 @@
 {
   "name": "profile-page",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node index.html"
   },
   "author": "",
-  "license": "ISC"
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carl-with-a-C/Profile_page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Carl-with-a-C/Profile_page/issues"
+  },
+  "homepage": "https://github.com/Carl-with-a-C/Profile_page#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
 }
